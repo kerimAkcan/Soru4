@@ -6,13 +6,13 @@
 int main() {
     int x[SIZE],y[SIZE]; ; 
     int toL[SIZE];
-	printf("1. dizinin elemanlarýný girin:\n");
+	printf("1. dizinin elemanlarÃ½nÃ½ girin:\n");
    
    	for (int i = 0; i <SIZE; i++) {
         scanf("%d", &x[i]);
         if(x[i] >10){
         	 printf("Lutfen Rakam Giriniz\n");
-   			 exit(1);
+   		 exit(1);
 		}
         
     }
@@ -22,13 +22,13 @@ int main() {
     }
     str[SIZE] = '\0';
    	int num = atoi(str);
-    printf("2. dizinin elemanlarýný girin:\n");
+    printf("2. dizinin elemanlarÃ½nÃ½ girin:\n");
    
    	for (int i = 0; i <SIZE; i++) {
         scanf("%d", &y[i]);
         if(y[i] >10){
         	 printf("Lutfen Rakam Giriniz\n");
-   			 exit(1);
+   		 exit(1);
 		}
         
     }
