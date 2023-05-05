@@ -2,9 +2,9 @@
 #include <string.h>
 #include <stdlib.h>
 #define SIZE 3 
-#define SIZE1 5 
+
 int main() {
-    int x[SIZE],y[SIZE]; ; 
+    int x[SIZE],y[SIZE]; 
     int toL[SIZE];
 	printf("1. dizinin elemanlarýný girin:\n");
    
