@@ -6,7 +6,7 @@
 int main() {
     int x[SIZE],y[SIZE]; 
     int toL[SIZE];
-	printf("1. dizinin elemanlarýný girin:\n");
+    printf("1. dizinin elemanlarýný girin:\n");
    
    	for (int i = 0; i <SIZE; i++) {
         scanf("%d", &x[i]);
